@@ -1,0 +1,8 @@
+.navtxt {
+    transition: 0.3s;
+    text-shadow: 1px 1px 9px #fefeeeb4;
+}
+.navtxt:hover {
+    color: #FEFF0C;
+    font-size: large;
+}
