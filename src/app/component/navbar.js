@@ -18,12 +18,12 @@ export default function Navbar() {
             <div>
                 <ul className="flex flex-wrap	ml-8 text-xl  text-white">
                     <li className="mr-8 ml-16">
-                        <Link href="/about">
+                        <Link href="/">
                             <p className="navtxt">Home</p>
                         </Link>
                     </li>
                     <li className="mr-8 ml-8">
-                        <Link href="/services">
+                        <Link href="#aboutus">
                             <p className="navtxt">About Us</p>
                         </Link>
                     </li>

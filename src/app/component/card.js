@@ -1,52 +1,23 @@
 'use client'
 import "./card.css"
-import React, { useEffect, useRef } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuildingShield } from "@fortawesome/free-solid-svg-icons";
+import React, {useEffect} from "react"
 import cctvIcon from "../image/cctvicon.png"
 import certificate from "../image/certificate.png"
 import homesecurity from "../image/homesecurity.png"
 import Image from "next/image";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Card() {
-    const cardRefs = useRef([]);
 
-    useEffect(() => {
-        const options = {
-            root: null,
-            rootMargin: "0px",
-            threshold: 0.1,
-        };
-
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("animate");
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, options);
-
-        cardRefs.current.forEach((ref) => {
-            if (ref) {
-                observer.observe(ref);
-            }
-        });
-
-        return () => {
-            if (cardRefs.current) {
-                cardRefs.current.forEach((ref) => {
-                    if (ref) {
-                        observer.unobserve(ref);
-                    }
-                });
-            }
-        };
-    }, []);
+    useEffect(()=> {
+        AOS.init({duration: 3000});
+    },[])
 
     return (
         <section className="flex justify-evenly text-white">
-            <div className="card1 rounded-xl" ref={(el) => (cardRefs.current[0] = el)} >
+
+            <div className="card1 rounded-xl" data-aos="fade-up" >
                 <div className="flex items-center justify-center text-center">
                 <Image
                     src={homesecurity}
@@ -63,10 +34,7 @@ export default function Card() {
                 </div>
             </div>
 
-            <div
-                className="card1 rounded-xl"
-                ref={(el) => (cardRefs.current[1] = el)}
-            >
+            <div className="card1 rounded-xl" data-aos="fade-up"  >
                 <div className="flex items-center justify-center text-center">
                 <Image
                     src={cctvIcon}
@@ -83,10 +51,7 @@ export default function Card() {
                 </div>
             </div>
 
-            <div
-                className="card1 rounded-xl"
-                ref={(el) => (cardRefs.current[2] = el)}
-            >
+            <div className="card1 rounded-xl" data-aos="fade-up" >
                 <div className="flex items-center justify-center text-center">
                 <Image
                     src={certificate}
@@ -102,6 +67,7 @@ export default function Card() {
                     </p>
                 </div>
             </div>
+
         </section>
     );
 }

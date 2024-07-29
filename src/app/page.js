@@ -2,9 +2,8 @@ import "./page.css"
 import Header from "./component/header";
 import Slider from "./component/slider";
 import Card from "./component/card";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuildingShield } from '@fortawesome/free-solid-svg-icons'
-
+import About from "./component/about";
+import WordDetail from "./component/worddetail";
 
 export default function Home() {
 
@@ -13,9 +12,8 @@ export default function Home() {
       <Header />
       <Slider />
       <Card />
-      <div>
-        
-      </div>
+      <About />
+     <WordDetail />
 
     </main>
   );
