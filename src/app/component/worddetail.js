@@ -62,7 +62,7 @@ export default function WordDetail() {
       </section>
       </ScrollTrigger>
       
-      <section className="flex bg-black pt-10 pb-10 mt-12">
+      <section className="flex bg-black pt-10 pb-10 mt-12 ">
         <div className="w-1/2">
         <Image src={securitycamera} className="" width={700} height={700} alt="Security Camera" />
         </div>

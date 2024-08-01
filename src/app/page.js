@@ -4,6 +4,8 @@ import Slider from "./component/slider";
 import Card from "./component/card";
 import About from "./component/about";
 import WordDetail from "./component/worddetail";
+import Services from "./component/services";
+import Feedback from "./component/feedback";
 
 export default function Home() {
 
@@ -14,7 +16,8 @@ export default function Home() {
       <Card />
       <About />
      <WordDetail />
-
+     <Services />
+     <Feedback />
     </main>
   );
 }

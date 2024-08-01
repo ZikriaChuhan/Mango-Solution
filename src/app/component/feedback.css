@@ -1,0 +1,7 @@
+.bgimage {
+  background-image: url(../image/bgimage-feedback.jpg);
+  color: rgb(255, 255, 255);
+}
+.shadowdiv {
+    background-color: rgba(0, 0, 0, 0.745);
+} 
