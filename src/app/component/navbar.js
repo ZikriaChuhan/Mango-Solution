@@ -33,6 +33,11 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className="mr-8 ml-8">
+                        <Link href="#clients">
+                            <p className="navtxt">Our Clients</p>
+                        </Link>
+                    </li>
+                    <li className="mr-8 ml-8">
                         <Link href="/contacts">
                             <p className="navtxt">Contact Us</p>
                         </Link>

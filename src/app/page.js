@@ -6,6 +6,8 @@ import About from "./component/about";
 import WordDetail from "./component/worddetail";
 import Services from "./component/services";
 import Feedback from "./component/feedback";
+import Clientlogo from "./component/clientlogo";
+import Footer from "./component/footer";
 
 export default function Home() {
 
@@ -18,6 +20,8 @@ export default function Home() {
      <WordDetail />
      <Services />
      <Feedback />
+     <Clientlogo />
+     <Footer />
     </main>
   );
 }

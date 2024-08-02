@@ -5,3 +5,29 @@
 .shadowdiv {
     background-color: rgba(0, 0, 0, 0.745);
 } 
+.revdiv {
+  max-width: 600px;
+}
+.revdiv1 {
+  max-width: 600px;
+  background-color: #07741D;
+}
+.contactbtn {
+  background-color: #07741D;
+  color: #feff0c;
+  padding: 10px 12px 10px 12px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.staricon {
+    padding-top: 10px;
+    padding-right: 10px;
+    color: goldenrod;
+    display: inline-block;
+    
+    }
+
+  .revsection {
+    margin-top: -55px;
+  }
