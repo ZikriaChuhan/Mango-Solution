@@ -1,0 +1,67 @@
+
+.contactimg {
+ 
+   display: flex;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+
+}
+.contactshadow {
+    background: rgba(0, 0, 0, 0.618);
+
+}
+.contactshadow:hover {
+    background: rgba(0, 0, 0, 0.779);
+
+}
+.contactsection {
+    background-image: url(../image/contactusimg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contacth2 {
+    color: #feff0c;
+    font-size: 30px;
+}
+.contacthalfdiv {
+    background-color: #07741D;
+    color: #ffffff;
+}
+.contacthalfdiv1 {
+    background-color: #ffffff;
+}
+.contact3icon {
+    padding: 8px;
+    border: 2px solid #feff0c;
+    border-radius: 6px;
+    color: #feff0c;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    margin-left: 8px;
+}
+.contacttxt {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.contactinfo {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+.contactinfo:hover {
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.contactinfo2 {
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 12px;
+
+}
+.con23{
+    background-color: #07741D;
+}

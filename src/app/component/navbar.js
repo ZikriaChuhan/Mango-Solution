@@ -23,22 +23,22 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className="mr-8 ml-8">
-                        <Link href="#aboutus">
+                        <Link href="/#aboutus">
                             <p className="navtxt">About Us</p>
                         </Link>
                     </li>
                     <li className="mr-8 ml-8">
-                        <Link href="#services">
+                        <Link href="/#services">
                             <p className="navtxt">Our Services</p>
                         </Link>
                     </li>
                     <li className="mr-8 ml-8">
-                        <Link href="#clients">
+                        <Link href="/#clients">
                             <p className="navtxt">Our Clients</p>
                         </Link>
                     </li>
                     <li className="mr-8 ml-8">
-                        <Link href="/contacts">
+                        <Link href="/contactus">
                             <p className="navtxt">Contact Us</p>
                         </Link>
                     </li>

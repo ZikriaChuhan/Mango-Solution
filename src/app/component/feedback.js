@@ -51,7 +51,7 @@ export default function Feedback() {
 
 
   return (
-    <section className="mb-20 ">
+    <section className="mb-16 ">
       <div className=" bg-no-repeat  bgimage bg-center bg-cover">
         <div className="shadowdiv  flex justify-center p-4 pt-20 pb-20">
           <h2 className="text-5xl feedbacktxt font-bold mr-10  font-extrabold pt-20 pb-20">We Will Always Ready to Serve You</h2>
@@ -65,7 +65,7 @@ export default function Feedback() {
       <div className="revdiv bg-black p-8 flex justify-center rounded-l-lg items-center">
           <div>
           <h2 className="text-3xl tracking-wide leading-relaxed pr-3 text-white mb-10">Give you The Best Security Service for your House,Office,Factory or Warehouse</h2>
-          <Link href="/contacts" className="contactbtn">
+          <Link href="/contactus" className="contactbtn">
           Contact Us
           </Link>
           </div>

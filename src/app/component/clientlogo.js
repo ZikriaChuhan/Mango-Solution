@@ -52,7 +52,7 @@ export default function Clientlogo() {
       };
 
     return (
-      <section id="clients" className="flex justify-center items-center mt-14 mb-14">
+      <section id="clients" className="flex justify-center items-center mt-14 mb-28">
        <div className="w-3/4">
        <Slider {...settings} >
         {quotes.map((q, index) => (
