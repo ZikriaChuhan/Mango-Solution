@@ -29,7 +29,7 @@ export default function Card() {
                 </div>
                 <div className="mt-6">
                     <p className="text-center">
-                        At Mango Solution, we understand the importance of keeping your home safe and secure. That's why we offer a comprehensive range of home security solutions tailored to meet your specific needs. Our cutting-edge technology, experienced professionals, and dedication to customer satisfaction make us the go-to choice for home security.
+                        At Mango Solution, we understand the importance of keeping your home safe and secure. That&apos;s why we offer a comprehensive range of home security solutions tailored to meet your specific needs. Our cutting-edge technology, experienced professionals, and dedication to customer satisfaction make us the go-to choice for home security.
                     </p>
                 </div>
             </div>
@@ -63,7 +63,7 @@ export default function Card() {
                 </div>
                 <div className="mt-6">
                     <p className="text-center">
-                        Mango Solution, we understand the critical importance of reliable and safe equipment in industrial settings. That's why we offer a comprehensive range of industrial certified products that meet the highest industry standards. Our certified products are designed to deliver exceptional performance, durability, and compliance with regulatory requirements.
+                        Mango Solution, we understand the critical importance of reliable and safe equipment in industrial settings. That&apos;s why we offer a comprehensive range of industrial certified products that meet the highest industry standards. Our certified products are designed to deliver exceptional performance, durability, and compliance with regulatory requirements.
                     </p>
                 </div>
             </div>

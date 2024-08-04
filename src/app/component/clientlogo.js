@@ -56,8 +56,8 @@ export default function Clientlogo() {
        <div className="w-3/4">
        <Slider {...settings} >
         {quotes.map((q, index) => (
-        <div className="ml-6 mr-6 flex justify-center ">
-            <Image src={q.image} width={150} height={150} alt={q.author}  />
+        <div className="ml-6 mr-6 flex justify-center " key={index}>
+            <Image src={q.image} width={150} height={150} alt={index}  />
 
         </div>
           

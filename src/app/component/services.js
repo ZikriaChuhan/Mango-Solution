@@ -70,7 +70,7 @@ export default function Services() {
                     </p>
                     <p className="mt-4 text-left ">
                     Energize the future with solar powers
-                    Available in 2/3/5 KVA's
+                    Available in 2/3/5 KVA&apos;s
                     </p>
                 </div>
 

@@ -21,7 +21,7 @@ export default function About() {
       <div className="aboutdiv">
         <Image src={aboutimg} width={1100} height={150} alt="About Image" />
         <h3 className="text-4xl mt-8 font-bold">
-          We're Trusted by More Than 1300+ Customers
+          We&apos;re Trusted by More Than 1300+ Customers
         </h3>
         <Image src={aboutimg2} width={350} height={150} alt="About Image 2" data-aos="fade-up" />
       </div>
@@ -32,7 +32,7 @@ export default function About() {
           Your Services is Our Priority
         </h3>
         <p className="mt-8 text-lg font-medium txt2">
-          Mango Solution, the developing and legitimate association was built up in 2015. In a limited capacity to focus time, our organization accomplished noteworthy financial development with strong establishment and expanded item scope of customers' interest in private and business sectors with effectiveness.
+          Mango Solution, the developing and legitimate association was built up in 2015. In a limited capacity to focus time, our organization accomplished noteworthy financial development with strong establishment and expanded item scope of customers&apos; interest in private and business sectors with effectiveness.
         </p>
         <p className="mt-8 text-lg font-medium txt2">
           Mango Solution is steering into the new era keeping pace with cutting-edge technological advancements nationwide, as well as specific customer requirements. Our products cater to core sectors of the economy.
